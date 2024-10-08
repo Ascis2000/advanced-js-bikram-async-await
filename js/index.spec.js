@@ -82,7 +82,7 @@ describe('Ejercicios Async/Await', function() {
             const response = await getRandomCharacterInfo()
             expect(response.img).toContain('avatar')
             expect(response.name.length).toBeGreaterThan(0)
-            expect(Array.isArray(response.episodes)).toBe(true)
+            expect(Array.isArray(response.episodes)).toBeGreaterThan(0)
             expect(response.firstEpisode.length).toBeGreaterThan(0)
             expect(response.dateEpisode.length).toBeGreaterThan(0)
         })

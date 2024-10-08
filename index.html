@@ -10,11 +10,81 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine-html.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/boot.min.js"></script>
-    <script src="index.js"></script>
+    
     <script src="JS/index.spec.js"></script>
 </head>
 
 <body>
+
+<style>
+.boxResultados{
+    margin:10px 0px;
+    border-radius: 5px;
+    border: 1px solid rgb(63, 156, 223);
+}
+.boxResultados label{
+    width:100%;
+    font-weight: bold;
+    background-color: #bfd2f2;
+}
+</style>
+
+<div class="boxResultados">
+    <label>Ejercicio 3</label>
+    <div class="datos" id="ejercicio_3"></div>
+</div>
+
+<style>
+    .batalla {
+        margin: 0 auto;
+        padding: 5px;
+        max-width: 100%;
+        text-align: center;
+        border-radius: 8px;
+        background-color: #f7faff;
+    }
+
+    .batalla h2{ 
+        margin: 5px 0px;
+    }
+
+    .battle-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .personaje {
+        text-align: center;
+    }
+
+    .personaje h3 {
+        color: #333;
+        font-size: 1.0em;
+    }
+
+    .personaje img {
+        width: 200px;
+        height:200px;
+        border-radius: 10px;
+        border: 2px solid #ccc;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .vs h3 {
+        font-size: 2em;
+        color: #d9534f;
+        margin: 0 20px;
+    }
+</style>
+
+<div class="boxResultados">
+    <label>Ejercicio 6</label>
+    <div class="datos" id="ejercicio_6"></div>
+</div>
+
+<script src="index.js"></script>
+
 </body>
 
 </html>
